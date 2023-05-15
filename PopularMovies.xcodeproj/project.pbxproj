@@ -14,6 +14,7 @@
 		CE4ECF102A1249AB008B7922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4ECF0F2A1249AB008B7922 /* Assets.xcassets */; };
 		CE4ECF132A1249AB008B7922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4ECF112A1249AB008B7922 /* LaunchScreen.storyboard */; };
 		CE4ECF1B2A1249E3008B7922 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4ECF1A2A1249E3008B7922 /* Model.swift */; };
+		CE4ECF1D2A125048008B7922 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4ECF1C2A125048008B7922 /* ApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CE4ECF122A1249AB008B7922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4ECF142A1249AB008B7922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4ECF1A2A1249E3008B7922 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE4ECF1C2A125048008B7922 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				CE4ECF112A1249AB008B7922 /* LaunchScreen.storyboard */,
 				CE4ECF142A1249AB008B7922 /* Info.plist */,
 				CE4ECF1A2A1249E3008B7922 /* Model.swift */,
+				CE4ECF1C2A125048008B7922 /* ApiService.swift */,
 			);
 			path = PopularMovies;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4ECF0B2A1249A9008B7922 /* ViewController.swift in Sources */,
+				CE4ECF1D2A125048008B7922 /* ApiService.swift in Sources */,
 				CE4ECF072A1249A9008B7922 /* AppDelegate.swift in Sources */,
 				CE4ECF092A1249A9008B7922 /* SceneDelegate.swift in Sources */,
 				CE4ECF1B2A1249E3008B7922 /* Model.swift in Sources */,
