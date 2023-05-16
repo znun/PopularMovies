@@ -1,5 +1,5 @@
 <p float="left">
- ![Screenshot 2023-05-16 at 5 36 28 PM](https://github.com/znun/iOS-JSON-Parsing-News-API-/assets/33092475/f7ae988a-d3dd-44a7-a08b-9bd8d410971b)
+<img src= "https://github.com/znun/iOS-JSON-Parsing-News-API-/assets/33092475/99fcd8b8-de14-42e2-be41-01f02cc2839a.png"  width="350" />
 </p>
 
 This is a Popular Movie List App Using TMDB API
