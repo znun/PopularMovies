@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Movie View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PopularMovies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MovieViewController" customModule="PopularMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,6 +84,7 @@
                                                 <constraint firstItem="3td-Ti-MJe" firstAttribute="top" secondItem="YYB-tn-NBD" secondAttribute="bottom" constant="2" id="Ecp-qA-Jv6"/>
                                                 <constraint firstItem="rNe-68-zpV" firstAttribute="leading" secondItem="pKC-gI-xzO" secondAttribute="trailing" constant="8" symbolic="YES" id="IeO-vO-C12"/>
                                                 <constraint firstItem="aQg-jz-4rb" firstAttribute="leading" secondItem="pKC-gI-xzO" secondAttribute="trailing" constant="8" symbolic="YES" id="OCj-xv-q3Q"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="YYB-tn-NBD" secondAttribute="trailing" constant="10" id="Qp8-r8-gyZ"/>
                                                 <constraint firstItem="YXF-In-OAz" firstAttribute="top" secondItem="rNe-68-zpV" secondAttribute="bottom" constant="8" id="UzC-ZM-jmJ"/>
                                                 <constraint firstAttribute="bottom" secondItem="aQg-jz-4rb" secondAttribute="bottom" constant="1" id="VT7-QV-Bpy"/>
                                                 <constraint firstItem="rNe-68-zpV" firstAttribute="top" secondItem="N3P-5f-xdb" secondAttribute="top" constant="11" id="dLg-aH-Djm"/>
@@ -107,6 +108,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Gfd-xa-eXH"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="LNy-Ar-YJu"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -121,10 +126,13 @@
                             <constraint firstItem="3hl-sX-GXP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ufH-j0-1tW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="qae-6l-rNJ" id="8Tr-jp-foM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113.74045801526717" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="-685" y="7"/>
         </scene>
     </scenes>
     <resources>
